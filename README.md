@@ -17,7 +17,7 @@
 ---
 
 ## 2. Project Overview
-This repository hosts the complete, verified, and structured laboratory implementations for the **Fundamentals of Internet of Things (FIoT)** course. Spanning continuous lab assessments from **CAT2 through CAT14**, the projects progress from bare-metal 8-bit embedded control to advanced 32-bit connected IoT edge computing, sensory acquisition, local web serving, and cloud MQTT telemetry.
+This repository hosts the complete, verified, and structured laboratory implementations for the **Fundamentals of Internet of Things (FIoT)** course. Spanning continuous lab assessments from **CAT2 through CAT15**, the projects progress from bare-metal 8-bit embedded control to advanced 32-bit connected IoT edge computing, sensory acquisition, local web serving, and cloud MQTT telemetry.
 
 The repository is divided into two primary hardware domains:
 1. **8051 Platform (AT89S52, 8-bit Microcontroller):** Bare-metal GPIO manipulation, timer-based state machines, matrix keypad human-machine interfacing (HMI), multi-channel Analog-to-Digital Conversion (ADC0804/ADC0808), full-duplex asynchronous serial UART, and 16x2 HD44780 character LCD driver development.
@@ -172,7 +172,8 @@ flowchart TD
     ├── CAT13/                          # CAT13: Bosch BME280 Environmental Sensor
     │   ├── README.md
     │   └── TASK13/                     # Task 13: I2C Sensor Acquisition
-    └── CAT14/                          # CAT14: End-to-End Cloud IoT Telemetry
+    ├── CAT14/                          # CAT14: End-to-End Cloud IoT Telemetry
+    └── CAT15/                          # CAT15: Indoor/Outdoor Monitoring & Node-RED Dashboard
         ├── README.md
         └── TASK14/                     # Task 14: MQTT Publisher (broker.emqx.io)
 ```

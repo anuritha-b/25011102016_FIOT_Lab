@@ -33,7 +33,7 @@ CAT15 – IoT-Based Indoor and Outdoor Environmental Monitoring System.
 
 ## Circuit Diagram
 
-![Circuit Diagram](circuit.jpeg)
+![Circuit Diagram](circuit.png)
 
 ### Hardware Connections
 
@@ -270,7 +270,7 @@ The Node-RED Dashboard 2.0 interface is organized into three main sections.
 - Atmospheric pressure difference
 - Automatic indoor/outdoor comfort recommendation
 
-![Node-RED Dashboard](dashboard.jpeg)
+![Node-RED Dashboard](dashboard.png)
 
 ### Code Base
 
