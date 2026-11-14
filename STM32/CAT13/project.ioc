@@ -1,0 +1,11 @@
+# STM32CubeMX Project File
+# CAT13 - STM32 Experiment
+# Author: Anuritha B (25011102016)
+# Note: Replace with your actual .ioc file
+
+ProjectManager.ProjectFileName=project
+ProjectManager.LibraryCopySrc=1
+ProjectManager.ProjectBuildStruct=1
+Mcu.Name=STM32F446ZETx
+Mcu.Family=STM32F4
+

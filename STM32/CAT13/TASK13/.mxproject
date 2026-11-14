@@ -1,0 +1,12 @@
+#Project Configuration
+[PreviousUsedFiles]
+SourceFiles=..\Core\Src\main.c;
+HeaderFiles=..\Core\Inc\main.h;
+
+[ProjectFiles]
+HeaderFiles=..\Core\Inc\main.h;
+SourceFiles=..\Core\Src\main.c;
+
+[Files]
+Core=..\Core\Src\main.c;..\Core\Inc\main.h;
+Drivers=..\Drivers\;

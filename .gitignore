@@ -1,0 +1,38 @@
+# Keil uVision intermediate and debug artifacts
+*.o
+*.obj
+*.lst
+*.d
+*.crf
+*.lnp
+*.m51
+*.map
+*.build_log.htm
+*.dep
+*.axf
+*.sct
+*.htm
+*.uvguix.*
+*.uvgui.*
+*.uvopt
+*.uvoptx
+*.browse
+*.iex
+
+# Exceptions: Whitelist mandatory evaluation deliverables
+!*.hex
+!Objects/*.hex
+!*.uvproj
+!*.uvprojx
+!*.ioc
+!.mxproject
+!STARTUP.A51
+!startup_*.s
+
+# IDE and OS clutter
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+.vscode/
+.idea/
